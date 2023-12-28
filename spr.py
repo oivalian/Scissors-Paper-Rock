@@ -4,7 +4,7 @@ import os
 
 def game(score, cpu_score):
     while True:
-        print(f'\nYour score is: {score}\nThe computers score is {cpu_score}\n')
+        print(f'\nYour score is: {score}\nThe computers score is: {cpu_score}\n')
         print('\n[P] Paper\n[S] Scissors\n[R] Rock\n')
         player_move = input('Make a selection > ')
         match player_move:
